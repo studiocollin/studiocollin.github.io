@@ -1,0 +1,132 @@
+@mixin respond($breakpoint) {
+  @if($breakpoint == medium)  {
+    @media (min-width: 900px) { @content }
+  }
+  @if($breakpoint == small)  {
+    @media (min-width: 600px) { @content }
+  }
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400;1,600&display=swap');
+@font-face {
+  font-family: 'Diatype';
+  src: url('fonts/DiatypePlusVariable.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Diatype';
+  src: url('fonts/DiatypePlusVariable-Italic.woff2') format('woff2');
+  font-weight: 400;
+  font-style: italic;
+}
+
+
+$black: #222;
+html {
+  color: $black;
+  font-size: 14px;
+  line-height: 1.2;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  font-family: 'Diatype', sans-serif;
+  font-weight: 400;
+}
+
+.container {
+  padding: 2em;
+  display: block;
+  @include respond(small) {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 2em;
+   }
+  
+}
+
+.info {
+  @include respond(small) {
+    width:28%;
+   }
+ //background: rgb(255, 175, 175)
+}
+.content {
+  @include respond(small) {
+    width:70%;
+   }
+  //background: rgb(81, 223, 160);
+}
+article {
+  &.portfolio-item {
+   margin-bottom: 2em;
+   @include respond(small) {
+    display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     align-items: flex-start;
+     text-align: right;
+    }
+  }
+}
+.text {
+  padding-right:2em;
+  @include respond(small) {
+     width:25vw;
+   }
+}
+.gallery-container {
+  @include respond(small) {
+     width:50vw;
+   }
+}
+.external-navigation {
+  list-style-type: none;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  font-size: 14px;
+  font-weight: 400;
+  font-variation-settings: 'slnt' 0, 'MONO' 0;
+  margin-top:0;
+  text-decoration: underline;
+}
+p {
+  &.meta {
+    font-family: 'Cormorant Garamond', serif;
+    font-style: italic;
+    font-size: 14px;
+    &.date {
+      font-size: 20px;
+    }
+  }
+}
+a {
+  color: $black;
+  &:visited {
+    color: $black;
+  }
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+img {
+  width: 100%;
+  height: auto;
+  margin-bottom:2em;
+}
+
+.video-container {
+ padding:56.25% 0 0 0;position:relative;
+ margin-bottom:2em;
+}
+
+.video-container iframe, .video-container object, .video-container embed {
+ position:absolute;top:0;left:0;width:100%;height:100%;
+}
