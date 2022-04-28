@@ -552,20 +552,20 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/css\/fonts\/DiatypePlusVariable-Italic.woff2" : {
+    "\/css\/fonts\/DPV.woff2" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/css\/fonts\/DiatypePlusVariable-Italic.woff2",
+      "oAP" : "\/css\/fonts\/DPV.woff2",
       "oF" : 0
     },
-    "\/css\/fonts\/DiatypePlusVariable.woff2" : {
+    "\/css\/fonts\/DPVI.woff2" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/css\/fonts\/DiatypePlusVariable.woff2",
+      "oAP" : "\/css\/fonts\/DPVI.woff2",
       "oF" : 0
     },
     "\/css\/main-alt.css" : {
