@@ -49,16 +49,18 @@ body {
 }
 
 .info {
+  padding-bottom:2em;
+  margin-bottom: 2em;
+  border-bottom:1px solid #000;
   @include respond(small) {
     width:28%;
+    border-bottom:none;
    }
- //background: rgb(255, 175, 175)
 }
 .content {
   @include respond(small) {
     width:70%;
    }
-  //background: rgb(81, 223, 160);
 }
 article {
   &.portfolio-item {
