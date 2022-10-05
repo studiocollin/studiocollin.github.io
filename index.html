@@ -22,6 +22,7 @@
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main2.css">
 
+
   <meta name="theme-color" content="#1d1d1d">
 </head>
 
@@ -56,7 +57,7 @@
       </div>
       <div class="gallery-container">
         <picture>
-          <source srcset="content/7856-press/KerstinLjungstro,_EP_AlexanderCollin-0161-BW.webp" type="image/webp">
+          <source srcset="content/7856-press/KerstinLjungstrom_EP_AlexanderCollin-0161-BW.webp" type="image/webp">
           <source srcset="content/7856-press/KerstinLjungstrom_EP_AlexanderCollin-0161-BW.jpg" type="image/jpeg">
           <img src="content/7856-press/KerstinLjungstrom_EP_AlexanderCollin-0161-BW.jpg">
         </picture>
@@ -108,8 +109,14 @@
 				<p class="meta">Creative direction, Graphic design</p>
 			</div>
 			<div class="gallery-container">
-				<div class="video-container">
-				<iframe src="https://player.vimeo.com/video/696151613?h=b8209c492b&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen title="Kerstin Ljungstr&amp;ouml;m - EX | 7&amp;quot; Clear Vinyl"></iframe></div>
+        <div
+  class="lazyframe "
+  data-vendor="vimeo"
+  data-src="https://vimeo.com/696151613"
+  data-ratio="16:9"
+  data-initinview="true"
+></div>
+
 				<picture>
 					<source srcset="content/ex/ACN2130.webp" type="image/webp">
 					<source srcset="content/ex/ACN2130.jpg" type="image/jpeg">
@@ -134,7 +141,13 @@
 				<p class="meta">Direction, Cinematography, Photography</p>
 			</div>
 			<div class="gallery-container">
-				<div class="video-container";"><iframe src="https://player.vimeo.com/video/594528301?h=b00dbf2959&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen title="Zikai x Hitimpulse - Hero, Teaser Out Soon"></iframe></div>
+        <div
+  class="lazyframe"
+  data-vendor="vimeo"
+  data-src="https://vimeo.com/594528301/b00dbf2959"
+  data-ratio="16:9"
+  data-initinview="false"
+></div>
 				<picture>
 					<source srcset="content/hero/Zikai-05-AlexanderCollin.webp" type="image/webp">
 					<source srcset="content/hero/Zikai-05-AlexanderCollin.jpg" type="image/jpeg">
@@ -165,7 +178,13 @@
 				<p class="meta">Direction, Cinematography</p>
 			</div>
 			<div class="gallery-container">
-				<div class="video-container" style="padding:41.88% 0 0 0;"><iframe src="https://player.vimeo.com/video/480327053?h=6c4e91bdc4&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen title="Six Years"></iframe></div>
+        <div
+  class="lazyframe"
+  data-vendor="vimeo"
+  data-src="https://player.vimeo.com/video/480327053"
+  data-ratio="239:1"
+  data-initinview="false"
+></div>
 				<picture>
 					<source srcset="content/sixyears/64c545108041593.5fb646d07cef2.webp" type="image/webp">
 					<source srcset="content/sixyears/64c545108041593.5fb646d07cef2.jpg" type="image/jpeg">
@@ -205,7 +224,14 @@
 				<p class="meta">Direction, Cinematography</p>
 			</div>
 			<div class="gallery-container">
-				<div class="video-container" style="padding:41.89% 0 0 0;"><iframe src="https://player.vimeo.com/video/480697616?h=3c827b276c&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen title="Beg"></iframe></div>
+        <div
+  class="lazyframe "
+  data-vendor="vimeo"
+  data-src="https://player.vimeo.com/video/480697616"
+  data-ratio="239:1"
+  data-initinview="false"
+></div>
+
 			</div>
 		</article>
 		<!-- din -->
@@ -338,6 +364,10 @@
 </div>
 
 </body>
+<script src="assets/lazyframe.min.js"></script>
 <script src="https://player.vimeo.com/api/player.js"></script>
-
+<script>
+// Passing a selector
+lazyframe(".lazyframe");
+</script>
 </html>

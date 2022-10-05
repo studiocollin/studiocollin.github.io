@@ -6,7 +6,10 @@
     @media (min-width: 600px) { @content }
   }
 }
-
+@import 'lazyframe/_base.scss';
+.lazyframe {
+  margin-bottom:2em;
+}
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400;1,600&display=swap');
 @font-face {
   font-family: 'DPV';
@@ -45,7 +48,7 @@ body {
     align-items: flex-start;
     padding: 2em;
    }
-  
+
 }
 
 .info {
@@ -125,10 +128,15 @@ img {
 }
 
 .video-container {
- padding:56.25% 0 0 0;position:relative;
+ padding:56.25% 0 0 0!important;
  margin-bottom:2em;
 }
 
 .video-container iframe, .video-container object, .video-container embed {
  position:absolute;top:0;left:0;width:100%;height:100%;
+}
+
+
+.special-ratio-1 {
+  padding-top: 51.25%;
 }
