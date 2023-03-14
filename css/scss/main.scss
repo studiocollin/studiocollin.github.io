@@ -14,8 +14,8 @@
   font-style: italic;
 }
 
-$body-bg: #fff;
-$body-color: #000;
+$body-bg: #000;
+$body-color: #fff;
 //typography
 $font-family-sans-serif: "franklin-gothic-atf", "Helvetica Neue", -apple-system, system-ui, BlinkMacSystemFont, Arial, sans-serif !default;
 $font-family-serif: "ltc-caslon-pro", Garamond, Times, serif !default;
@@ -45,11 +45,6 @@ body {
   text-rendering: optimizeLegibility;
 }
 
-.portfolio-item {
-  margin: 0 auto 39px auto;
-}
-
-
 h1,
 h2,
 h3,
@@ -70,8 +65,9 @@ p {
 }
 
 .main-nav {
+  z-index: 1;
   h1 {
-    font-size: 12px;
+    font-size: 16px;
   }
 
   .right {
@@ -95,17 +91,17 @@ h3 {
 }
 
 
-p {
+p, a {
   font-family: $font-family-serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 12px;
+  font-size: 13px;
   letter-spacing: 0.01em;
 }
 
 img {
-  width: 100%;
-  margin-bottom: $grid-gutter-width;
+  //width: 100%;
+  //margin-bottom: $grid-gutter-width;
 }
 
 
@@ -119,11 +115,27 @@ img {
 }
 
 .main-nav {
-  padding: 19px $grid-gutter-width*2;
+  padding: $grid-gutter-width*5 $grid-gutter-width*5;
+  position: fixed;
  }
 
-
+ .main-footer {
+  display: none;
+} 
 
 .underline {
   text-decoration: underline;
+}
+
+
+ol {
+  list-style-type: none;
+  margin: 0;
+  padding:0;
+}
+
+a, a:visited {
+  text-decoration: none;
+  color:$body-color;
+  font-style: italic;
 }
