@@ -1,22 +1,12 @@
-@mixin respond($breakpoint) {
-  @if($breakpoint == medium)  {
-    @media (min-width: 900px) { @content }
-  }
-  @if($breakpoint == small)  {
-    @media (min-width: 600px) { @content }
-  }
-}
-@import 'lazyframe/_base.scss';
-.lazyframe {
-  margin-bottom:2em;
-}
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400;1,600&display=swap');
+@import url("https://use.typekit.net/oyl5gnb.css");
+
 @font-face {
   font-family: 'DPV';
   src: url('fonts/DPV.woff2') format('woff2');
   font-weight: 400;
   font-style: normal;
 }
+
 @font-face {
   font-family: 'DPV';
   src: url('fonts/DPVI.woff2') format('woff2');
@@ -24,119 +14,116 @@
   font-style: italic;
 }
 
+$body-bg: #fff;
+$body-color: #000;
+//typography
+$font-family-sans-serif: "franklin-gothic-atf", "Helvetica Neue", -apple-system, system-ui, BlinkMacSystemFont, Arial, sans-serif !default;
+$font-family-serif: "ltc-caslon-pro", Garamond, Times, serif !default;
+$font-family-monospace: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !default;
+$font-family-base: $font-family-sans-serif !default;
+$grid-gutter-width: .5rem;
+@import "bootstrap/bootstrap";
+@import 'lazyframe/_base.scss';
 
-$black: #222;
-html {
-  color: $black;
-  font-size: 14px;
-  line-height: 1.2;
-  -webkit-font-smoothing: antialiased;
+.lazyframe {
+  margin-bottom: 2em;
 }
+
+#fixedNav {
+  position: fixed;
+
+  h1,
+  p {
+    display: inline-block;
+  }
+}
+
 
 body {
-  font-family: 'DPV', sans-serif;
-  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
 }
 
-.container {
-  padding: 2em;
-  display: block;
-  @include respond(small) {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: flex-start;
-    padding: 2em;
-   }
-
+.portfolio-item {
+  margin: 0 auto 39px auto;
 }
 
-.info {
-  padding-bottom:2em;
-  margin-bottom: 2em;
-  border-bottom:1px solid #000;
-  @include respond(small) {
-    width:28%;
-    border-bottom:none;
-   }
-}
-.content {
-  @include respond(small) {
-    width:70%;
-   }
-}
-article {
-  &.portfolio-item {
-   margin-bottom: 2em;
-   @include respond(small) {
-    display: flex;
-     flex-direction: row;
-     justify-content: space-between;
-     align-items: flex-start;
-     text-align: right;
-    }
-  }
-}
-.text {
-  padding-right:2em;
-  @include respond(small) {
-     width:25vw;
-   }
-}
-.gallery-container {
-  @include respond(small) {
-     width:50vw;
-   }
-}
-.external-navigation {
-  list-style-type: none;
-  display: inline-block;
-  margin: 0;
-  padding: 0;
-}
-h1 {
-  font-size: 14px;
-  font-weight: 400;
-  font-variation-settings: 'slnt' 0, 'MONO' 0;
-  margin-top:0;
-  text-decoration: underline;
-}
+
+h1,
+h2,
+h3,
 p {
-  &.meta {
-    font-family: 'Cormorant Garamond', serif;
-    font-style: italic;
-    font-size: 14px;
-    &.date {
-      font-size: 20px;
-    }
+  font-size: 14px;
+}
+
+.right {
+  @include media-breakpoint-up(sm) {
+    text-align: right;
   }
 }
-a {
-  color: $black;
-  &:visited {
-    color: $black;
+
+h2,
+h3,
+p {
+  font-weight: 300;
+}
+
+.main-nav {
+  h1 {
+    font-size: 12px;
   }
-  &:hover {
-    text-decoration: none;
+
+  .right {
+    text-align: right;
   }
+}
+
+h1 {
+  font-weight: 500;
+}
+
+h2 {
+  font-weight: normal
+}
+
+h3 {
+  font-family: $font-family-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 13px;
+}
+
+
+p {
+  font-family: $font-family-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 12px;
+  letter-spacing: 0.01em;
 }
 
 img {
   width: 100%;
-  height: auto;
-  margin-bottom:2em;
-}
-
-.video-container {
- padding:56.25% 0 0 0!important;
- margin-bottom:2em;
-}
-
-.video-container iframe, .video-container object, .video-container embed {
- position:absolute;top:0;left:0;width:100%;height:100%;
+  margin-bottom: $grid-gutter-width;
 }
 
 
-.special-ratio-1 {
-  padding-top: 51.25%;
+.main-container,
+.about,
+.main-footer {
+  padding: 78px $grid-gutter-width*2;
+  @include media-breakpoint-up(sm) {
+    padding: 78px $grid-gutter-width*2;
+  }
+}
+
+.main-nav {
+  padding: 19px $grid-gutter-width*2;
+ }
+
+
+
+.underline {
+  text-decoration: underline;
 }
