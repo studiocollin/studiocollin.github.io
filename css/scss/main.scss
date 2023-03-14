@@ -114,7 +114,7 @@ img {
 .main-footer {
   padding: 78px $grid-gutter-width*2;
   @include media-breakpoint-up(sm) {
-    padding: 78px $grid-gutter-width*2;
+    padding: 78px $grid-gutter-width*20;
   }
 }
 
