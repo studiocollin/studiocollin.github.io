@@ -1,14 +1,22 @@
 {
-  "name": "codekit-project",
+  "name": "studiocollin.github.io",
   "version": "1.0.0",
-  "description": "CodeKit created this starter package.json file. You should customize it appropriately. (If you intend to publish this project on npm, add an entry in the 'repository' field and remove the 'private' attribute, below.)",
-  "scripts": {},
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch:sass": "sass src/static/scss:public/static/css --watch",
+    "build:sass": "sass src/static/scss:public/static/css",
+    "watch:eleventy": "eleventy --serve",
+    "build:eleventy": "ELEVENTY_ENV=development eleventy",
+    "start": "npm run watch:eleventy & npm run watch:sass",
+    "build": "npm run build:eleventy & npm run build:sass"
+  },
+  "keywords": [],
   "author": "",
-  "license": "UNLICENSED",
-  "repository": {},
-  "private": true,
+  "license": "ISC",
   "dependencies": {
-    "bootstrap": "^5.2.2",
-    "lightgallery": "^2.7.0"
+    "@11ty/eleventy": "2.0.1",
+    "sass": "1.69.7"
   }
 }

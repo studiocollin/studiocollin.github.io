@@ -1,4 +1,18 @@
-.DS_Store
-config.codekit3
-index-alt.html
-*.codekit3
+# Dependencies
+/node_modules
+
+# Misc
+/public
+
+# Intellij
+/.idea
+
+# Sass
+.sass-cache/
+*.css.map
+*.sass.map
+*.scss.map
+
+# Visual Studio Code
+/.vscode
+.history
