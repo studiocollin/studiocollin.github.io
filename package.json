@@ -29,6 +29,7 @@
     "slick-carousel": "^1.8.1"
   },
   "devDependencies": {
-    "@11ty/eleventy-img": "^3.1.8"
+    "@11ty/eleventy-img": "^3.1.8",
+    "gh-pages": "^6.1.1"
   }
 }
