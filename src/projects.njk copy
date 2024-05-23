@@ -1,0 +1,63 @@
+---
+title: "studio collin"
+layout: "base.njk"
+---
+<div class="row">
+<div class="d-none d-md-block col-md-5">
+  <nav class="projects-nav">
+    <h1>Index</h1>
+    {% for post in collections.project | reverse  %}
+      <li class="column-test row">
+        <a href="{{ post.url }}"><span class="col-sm-3">{{ post.data.maincategory}}</span><span class="col-sm-3">{{ post.data.client}}</span> <span class="col-sm-4">{{ post.data.project }}</span></a>
+        <!--<span class="meta">
+          {% for tag in post.data.tags %}
+            {% if tag != 'project' %}
+              {{ tag }}
+              {% if not loop.last %},
+              {% endif %}
+            {% endif %}
+          {% endfor %}
+        </span>-->
+      </li>
+    {% endfor %}
+  </nav>
+</div>
+<div class="col-md-7">
+  
+    <div class="col-sm-12 grid-space">
+      <?xml version="1.0" encoding="UTF-8"?>
+      <svg id="Layer_2" class="grid-ico" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+        <defs>
+          <style>
+            .cls-1 {
+              fill: #231f20;
+              stroke-width: 0;
+            }
+          </style>
+        </defs>
+        <g id="Layer_1-2" data-name="Layer 1">
+          <rect class="cls-1" width="11" height="11"/>
+          <rect class="cls-1" x="13" width="11" height="11"/>
+          <rect class="cls-1" y="13" width="11" height="11"/>
+          <rect class="cls-1" x="13" y="13" width="11" height="11"/>
+        </g>
+      </svg>
+    </div>
+    <div class="row no-gutters">
+    {% for post in collections.project | reverse %}
+  <article class="col-md-12 preview">
+    <a href="{{ post.url }}">
+      {% if post.data.video %}
+        {% video post.data.video, "1920", "1080", "landscape", post.data.pid %}
+      {% else %}
+        {% Image post.data.image, "image no 01", "landscape", post.data.pid %}
+      {% endif %}
+    </a>
+    <h1>{{ post.data.pid + "/ " + post.data.maincategory }}</h1>
+    <p></p>
+  </article>
+{% endfor %}
+
+ </div>
+ </div>
+</div>
