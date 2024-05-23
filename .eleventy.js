@@ -1,4 +1,7 @@
 // .eleventy.js
+
+const UpgradeHelper = require("@11ty/eleventy-upgrade-help");
+
 const Image = require("@11ty/eleventy-img");
 const embedEverything = require("eleventy-plugin-embed-everything");
 
@@ -70,7 +73,7 @@ module.exports = function (eleventyConfig) {
           >
       </picture></div>`;
   });
-
+  eleventyConfig.addPlugin(UpgradeHelper);
   return {
     dir: {
       input: "src",

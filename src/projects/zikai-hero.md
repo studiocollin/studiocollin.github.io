@@ -10,7 +10,7 @@ tags:
   - project
   - Film Director
   - cinematographer
-video: "hero_2"
+video: "hero_1"
 image: "hero-03.jpg"
 imageAlt: "Still image of Zikai in a mint green dress under a blue sky"
 classes: "preview portrait"
