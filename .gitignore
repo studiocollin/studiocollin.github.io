@@ -1,12 +1,6 @@
 # Dependencies
 /node_modules
 
-# Misc
-/public
-
-# Intellij
-/.idea
-
 # Sass
 .sass-cache/
 *.css.map
