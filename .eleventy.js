@@ -31,9 +31,8 @@ module.exports = function (eleventyConfig) {
   // Nunjuck Video
   eleventyConfig.addNunjucksShortcode("video", function(src, width, height, css, pid) {
     return `<div class="${css} preview"><video autoplay loop muted>
-    <source src="/v/${pid}/${src}.webm" type="video/webm">          
+    <source src="/v/${pid}/${src}.webm" type="video/webm">
     <source src="/v/${pid}/${src}.mp4" type="video/mp4">
-              
               Your browser does not support the video tag.
             </video></div>`;
   });

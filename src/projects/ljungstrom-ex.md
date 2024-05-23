@@ -11,7 +11,7 @@ tags:
   - Creative director
   - art director
   - designer
-video: "ex"
+video: "ex_1"
 image: "ex-01.jpg"
 imageAlt: "Vinyl artwork for Kerstin Ljungström - EX"
 classes: "preview portrait"
