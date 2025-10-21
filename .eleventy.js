@@ -39,6 +39,23 @@ module.exports = function (eleventyConfig) {
               Your browser does not support the video tag.
             </video></div>`;
   });
+  // Nunjuck Video Shortcode (liknande struktur som Image)
+eleventyConfig.addNunjucksShortcode("VideoP", function (src, alt, css, pid) {
+  if (alt === undefined) {
+    throw new Error(`Missing \`alt\` text for video from: ${src}`);
+  }
+
+  let videoSrcMp4 = `/v/${pid}/${src}.mp4`;
+  let videoSrcWebm = `/v/${pid}/${src}.webm`;
+
+  return `<div class="${css} preview">
+    <video autoplay loop muted playsinline width="100%" aria-label="${alt}">
+      <source src="${videoSrcWebm}" type="video/webm">
+      <source src="${videoSrcMp4}" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </div>`;
+});
 // Nunjuck Image Optimizer
   eleventyConfig.addNunjucksAsyncShortcode("Image",  async function (src, alt, css, pid) {
     if (alt === undefined) {
