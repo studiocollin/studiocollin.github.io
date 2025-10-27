@@ -11,7 +11,7 @@ tags:
   - Film Director
   - cinematographer
 image: "sixyears-07.jpg"
-imageAlt: "Still image of Zikai in a mint green dress under a blue sky"
+imageAlt: "Portrait of a man in front of a vast ocean"
 classes: "preview portrait"
 templateEngineOverride: njk,md
 ---
@@ -36,15 +36,15 @@ Shot on Fårö, Gotland.
 <!-- split -->
 <div class="col-sm-12 preview">
 <div class="embed-container">
-  <iframe src="https://player.vimeo.com/video/480327053" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+  <iframe src="https://www.youtube.com/embed/Hz7m_ekidW0?si=b6dAx-hFRkgGe4KC" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 </div>
 </div>
-{% Image "sixyears-04.jpg", "Still image of Zikai in a mint green dress under a blue sky","col-sm-12" , pid %}
-{% Image "sixyears-02.jpg", "Still image of Zikai in a mint green dress under a blue sky","col-sm-12" , pid %}
-{% Image "sixyears-05.jpg", "Still image of Zikai in a mint green dress under a blue sky","col-sm-12" , pid %}
-{% Image "sixyears-06.jpg", "Still image of Zikai in a mint green dress under a blue sky","col-sm-12" , pid %}
-{% Image "sixyears-07.jpg", "Still image of Zikai in a mint green dress under a blue sky","col-sm-12" , pid %}
-{% Image "sixyears-08.jpg", "Still image of Zikai in a mint green dress under a blue sky","col-sm-12" , pid %}
-{% Image "sixyears-09.jpg", "Still image of Zikai in a mint green dress under a blue sky","col-sm-12" , pid %}
-{% Image "sixyears-01.jpg", "Still image of Zikai in a mint green dress under a blue sky","col-sm-12" , pid %}
-{% Image "sixyears-03.jpg", "Still image of Zikai in a mint green dress under a blue sky","col-sm-12" , pid %}
+{% Image "sixyears-04.jpg", "Portrait of a man in front of a vast ocean","col-sm-12" , pid %}
+{% Image "sixyears-02.jpg", "Portrait of a man in front of a vast ocean","col-sm-12" , pid %}
+{% Image "sixyears-05.jpg", "Portrait of a man in front of a vast ocean","col-sm-12" , pid %}
+{% Image "sixyears-06.jpg", "Portrait of a man in front of a vast ocean","col-sm-12" , pid %}
+{% Image "sixyears-07.jpg", "Portrait of a man in front of a vast ocean","col-sm-12" , pid %}
+{% Image "sixyears-08.jpg", "Portrait of a man in front of a vast ocean","col-sm-12" , pid %}
+{% Image "sixyears-09.jpg", "Portrait of a man in front of a vast ocean","col-sm-12" , pid %}
+{% Image "sixyears-01.jpg", "Portrait of a man in front of a vast ocean","col-sm-12" , pid %}
+{% Image "sixyears-03.jpg", "Portrait of a man in front of a vast ocean","col-sm-12" , pid %}
