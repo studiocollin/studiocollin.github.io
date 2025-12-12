@@ -22,8 +22,10 @@ layout: "base.njk"
         {% Image post.data.image, "image no 01", "landscape", post.data.pid %}
       {% endif %}
     </a>
-    
-    <p>{{ post.data.title }}</p>
+    <div class="row no-gutters">
+      <div class="col-6"><p class="text-start fw-normal">{{ post.data.client }}</p> </div>
+      <div class="col-6"><p class="text-end fw-normal">{{ post.data.project }}</p> </div>
+    </div>
   </article>
 {% endfor %}
 
