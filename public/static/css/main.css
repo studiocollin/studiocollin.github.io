@@ -11114,14 +11114,13 @@ ul {
 }
 
 h1.brag-title, .brag-title.h1 {
-  text-transform: uppercase;
   font-weight: 700;
   font-size: 13px;
-  margin-bottom: 0;
+  margin-bottom: 13px;
 }
 
 ul.brag-list {
-  list-style-type: square;
+  list-style-type: none;
   list-style-position: inside;
   font-size: 13px;
   font-weight: 100;
