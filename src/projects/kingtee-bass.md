@@ -2,7 +2,7 @@
 title: "King Tee - Thy Kingdom Come"
 pid: "23AW01"
 client: "King Tee"
-project: "Basse"
+project: "Bass"
 date: "2023-08-21"
 maincategory: "ART DIRECTION"
 layout: "post.njk"
