@@ -8,8 +8,11 @@ maincategory: "ART DIRECTION"
 layout: "post.njk"
 tags:
   - project
-  - Art director
-  - graphic designer
+  - Creative Direction
+  - Art Direction
+  - Visual Identity
+  - Design
+  - Packaging Design
 image: "23SS01-poster.jpg"
 imageAlt: "The 'Thy Kingdom Come' vinyl artwork in limestone"
 classes: "preview portrait"

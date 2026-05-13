@@ -8,9 +8,12 @@ maincategory: "CREATIVE DIRECTION"
 layout: "post.njk"
 tags:
   - project
-  - Creative director
-  - art director
-  - designer
+  - Creative Direction
+  - Art Direction
+  - Visual Identity
+  - Design
+  - Photography
+  - Film
 video: ""
 image: "FFDI004-JIMOUMA-VINTEREP-Artwork-4000x4000x300-sRGB.jpg"
 imageAlt: "Art direction & photography JIM OUMA VINTER EP"

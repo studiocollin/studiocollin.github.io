@@ -8,8 +8,11 @@ maincategory: "ART DIRECTION"
 layout: "post.njk"
 tags:
   - project
-  - Art director
-  - graphic designer
+  - Creative Direction
+  - Art Direction
+  - Visual Identity
+  - Design
+  - Packaging Design
 image: "bass_cover.jpg"
 imageAlt: "BASS artwork"
 classes: "preview landscape"

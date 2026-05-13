@@ -8,9 +8,11 @@ maincategory: "CREATIVE DIRECTION"
 layout: "post.njk"
 tags:
   - project
-  - Creative director
-  - art director
-  - designer
+  - Creative Direction
+  - Art Direction
+  - Visual Identity
+  - Design
+  - Photography
 video: ""
 image: "KerstinLjungstrom-HallKaften-Artwork-final-sRGB.jpg"
 imageAlt: "Art direction & photography Kerstin Ljungström 2025"

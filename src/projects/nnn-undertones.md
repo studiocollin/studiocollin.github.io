@@ -8,8 +8,11 @@ maincategory: "ART DIRECTION"
 layout: "post.njk"
 tags:
   - project
-  - Art director
-  - graphic designer
+  - Creative Direction
+  - Art Direction
+  - Visual Identity
+  - Design
+  - Packaging Design
 image: "18AW01-poster.jpg"
 imageAlt: "Vinyl artwork for the second studio album by NONONO, 'Undertones'"
 classes: "preview portrait"

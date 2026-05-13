@@ -23,8 +23,10 @@ layout: "base.njk"
       {% endif %}
     </a>
     <div class="row no-gutters">
-      <div class="col-6"><p class="text-start fw-normal">{{ post.data.client }}</p> </div>
-      <div class="col-6"><p class="text-end fw-normal">{{ post.data.project }}</p> </div>
+      <div class="col-12"><h1 class="text-start fw-normal">{{ post.data.client }} - {{ post.data.project }}</h1> </div>
+      <div class="col-12"><p class="text-start fw-normal tags">{% for tag in post.data.tags.slice(1) %}
+      {{ tag }}{% if not loop.last %}, {% endif %}
+    {% endfor %}</p> </div>
     </div>
   </article>
 {% endfor %}

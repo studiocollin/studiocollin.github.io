@@ -8,8 +8,10 @@ maincategory: "DIRECTOR / DOP"
 layout: "post.njk"
 tags:
   - project
-  - Film Director
-  - cinematographer
+  - Film Directection
+  - Cinematography
+  - Film
+  - Photography
 image: "sixyears-07.jpg"
 imageAlt: "Portrait of a man in front of a vast ocean"
 classes: "preview portrait"

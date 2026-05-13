@@ -8,9 +8,13 @@ maincategory: "CREATIVE DIRECTION"
 layout: "post.njk"
 tags:
   - project
-  - Creative director
-  - art director
-  - designer
+  - Creative Direction
+  - Art Direction
+  - Visual Identity
+  - Design
+  - Packaging Design
+  - Photography
+  - Film
 video: "ex"
 image: "ex-01.jpg"
 imageAlt: "Vinyl artwork for Kerstin Ljungström - EX"

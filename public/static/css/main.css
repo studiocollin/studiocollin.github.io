@@ -10887,22 +10887,23 @@ textarea.form-control-lg {
 }
 
 body {
-  padding-top: 24px;
+  padding-top: 18px;
+  font-size: 12px;
 }
 
 .container-fluid, .container-sm, .container-md, .container-lg, .container-xl, .container-xxl {
-  padding: 0 24px;
+  padding: 0 18px;
 }
 
 section.location, .header-row-2 {
-  margin-top: 32px;
+  margin-top: 24px;
 }
 section.location h1, section.location .h1, section.location h2, section.location .h2, section.location h3, section.location .h3, .header-row-2 h1, .header-row-2 .h1, .header-row-2 h2, .header-row-2 .h2, .header-row-2 h3, .header-row-2 .h3 {
-  font-size: 14px;
+  font-size: 12px;
 }
 
 .main-content, .brag {
-  margin-top: 64px;
+  margin-top: 48px;
 }
 
 .portfolio-item {
@@ -10918,7 +10919,7 @@ section.location h1, section.location .h1, section.location h2, section.location
 }
 @media (min-width: 768px) {
   .preview {
-    margin-bottom: 16px;
+    margin-bottom: 12px;
   }
 }
 .preview img,
@@ -11014,7 +11015,7 @@ section.location h1, section.location .h1, section.location h2, section.location
   border: 1px solid #fff;
   color: #fff;
   text-transform: uppercase;
-  font-size: 11px;
+  font-size: 12px;
   opacity: 0.6;
 }
 
@@ -11050,12 +11051,19 @@ p {
 }
 
 p, .case li {
-  font-weight: 600;
-  font-size: 13px;
+  font-weight: 500;
+  font-size: 12px;
+}
+p.tags, .case li.tags {
+  color: rgb(204, 204, 204);
+  font-size: 12px;
+}
+p.about-lg, .case li.about-lg {
+  font-size: 16.8px;
 }
 
 p {
-  margin-bottom: 16px;
+  margin-bottom: 12px;
 }
 
 h1, .h1,
@@ -11063,20 +11071,27 @@ h2,
 .h2,
 h3,
 .h3, h4, .h4 {
-  font-size: 16px;
+  font-size: 12px;
+}
+h1.about-lg, .about-lg.h1,
+h2.about-lg,
+.about-lg.h2,
+h3.about-lg,
+.about-lg.h3, h4.about-lg, .about-lg.h4 {
+  font-size: 16.8px;
 }
 
 h1, .h1 {
-  margin-bottom: 16px;
+  margin-bottom: 12px;
 }
 
 h4, .h4 {
-  margin-top: 32px;
+  margin-top: 24px;
 }
 
 article h1, article .h1 {
   font-weight: 500;
-  font-size: 19.2px;
+  font-size: 14.4px;
 }
 
 h2.date, .date.h2 {
@@ -11091,12 +11106,13 @@ h2.date, .date.h2 {
 }
 
 .company h1, .company .h1 {
-  font-size: 16px;
+  font-size: 12px;
 }
 
 .preview h1, .preview .h1 {
-  font-size: 13px;
+  font-size: 12px;
   font-weight: 500;
+  margin-bottom: 6px;
 }
 
 ul,
@@ -11115,14 +11131,14 @@ ul {
 
 h1.brag-title, .brag-title.h1 {
   font-weight: 700;
-  font-size: 13px;
+  font-size: 12px;
   margin-bottom: 13px;
 }
 
 ul.brag-list {
   list-style-type: none;
   list-style-position: inside;
-  font-size: 13px;
+  font-size: 12px;
   font-weight: 100;
   padding: 0;
 }
@@ -11190,7 +11206,7 @@ a:hover {
   font-weight: 500;
 }
 .description .description-center h2, .description .description-center .h2 {
-  margin-bottom: 16px;
+  margin-bottom: 12px;
 }
 
 .right {

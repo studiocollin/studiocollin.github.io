@@ -8,8 +8,12 @@ maincategory: "DIRECTOR / DOP"
 layout: "post.njk"
 tags:
   - project
-  - Film Director
-  - cinematographer
+  - Creative Direction
+  - Art Direction
+  - Film Direction
+  - Cinematography
+  - Film
+  - Photography
 video: "hero_1"
 image: "hero-03.jpg"
 imageAlt: "Still image of Zikai in a mint green dress under a blue sky"

@@ -8,8 +8,12 @@ maincategory: "Photography"
 layout: "post.njk"
 tags:
   - project
-  - Art director
-  - photographer
+  - Creative Direction
+  - Art Direction
+  - Visual Identity
+  - Design
+  - Film Direction
+  - Photography
 image: "PeterJoback-AlexanderCollin-0397.jpg"
 imageAlt: "Black and white photograph of Peter Jöback and a classic muscle car"
 classes: "preview landscape"

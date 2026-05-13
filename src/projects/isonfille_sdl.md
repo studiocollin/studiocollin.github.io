@@ -8,8 +8,9 @@ maincategory: "CINEMATOGRAPHY"
 layout: "post.njk"
 tags:
   - project
-  - cinematographer
-  - director
+  - Film Direction
+  - Cinematography
+  - Film
 video: "casefront"
 image: "102.jpg"
 imageAlt: "Ison & Fille - Se Dig Le Music video"

@@ -8,8 +8,8 @@ maincategory: "Photography"
 layout: "post.njk"
 tags:
   - project
-  - Art director
-  - photographer
+  - Art Direction
+  - Photography
 image: "PeterJoback-LBL-Press.png"
 imageAlt: "Black and white photograph of Peter Jöback and a classic muscle car"
 classes: "preview landscape"

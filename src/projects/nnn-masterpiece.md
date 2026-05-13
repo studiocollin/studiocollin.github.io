@@ -8,8 +8,11 @@ maincategory: "ART DIRECTION"
 layout: "post.njk"
 tags:
   - project
-  - Art director
-  - graphic designer
+  - Creative Direction
+  - Art Direction
+  - Visual Identity
+  - Design
+  - Packaging Design
 image: "17AW01-poster.jpg"
 imageAlt: "Vinyl artwork for the NONONO release 'Masterpiece'"
 classes: "preview portrait"

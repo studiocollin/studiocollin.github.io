@@ -30,7 +30,7 @@ body.inverted {
   }
 }
 $font-size-sm: 12px;
-$font-size-std: 16px;
+$font-size-std: 12px;
 //typographss
 $font-family-sans-serif: "DT", times, -apple-system, system-ui, BlinkMacSystemFont, Arial, sans-serif !default;
 $font-family-serif: "ltc-caslon-pro", Garamond, Times, serif !default;
@@ -48,6 +48,7 @@ $grid-gutter-width: 1.5rem;
 
 body {
   padding-top: $font-size-std*1.5;
+  font-size: $font-size-std;
   //&.start {
   //background-color:$body-color;
   //color:$body-bg;
@@ -66,7 +67,7 @@ body {
 section.location, .header-row-2 {
   margin-top: $font-size-std*2;
   h1,h2,h3 {
-    font-size: 14px;
+    font-size: $font-size-std;
   }
 }
 .main-content,.brag {
@@ -205,7 +206,7 @@ display: none;
     border: 1px solid #fff;
     color: #fff;
     text-transform: uppercase;
-    font-size: 11px;
+    font-size: $font-size-std;
     opacity: .6;
   }
 }
@@ -237,9 +238,15 @@ p {
 
 p, .case li{
   //text-align: left;
-  font-weight: 600;
-  font-size: 13px;
-  
+  font-weight: 500;
+  font-size: $font-size-sm;
+  &.tags {
+    color:rgba(204,204,204);
+    font-size:$font-size-std;
+  }
+  &.about-lg {
+    font-size: $font-size-std*1.4;
+  }
 }
 
 p {
@@ -250,6 +257,9 @@ h1,
 h2,
 h3, h4 {
   font-size: $font-size-std;
+  &.about-lg {
+    font-size: $font-size-std*1.4;
+  }
 }
 
 h1 {
@@ -278,13 +288,14 @@ h2 {
 
 .company {
   h1 {
-    font-size: 16px;
+    font-size: $font-size-std;
   }
 }
 .preview {
   h1 {
-    font-size: 13px;
+    font-size: $font-size-std;
     font-weight: 500;
+    margin-bottom:6px;
   }
 }
 
@@ -304,13 +315,13 @@ ul {
 h1.brag-title {
   //text-transform: uppercase;
   font-weight: 700;
-  font-size: 13px;
+  font-size: $font-size-std;
   margin-bottom: 13px;
 }
 ul.brag-list {
   list-style-type: none;
   list-style-position: inside;
-  font-size: 13px;
+  font-size: $font-size-std;
   font-weight: 100;
   padding:0;
 }

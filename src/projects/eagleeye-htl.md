@@ -8,9 +8,9 @@ maincategory: "CINEMATOGRAPHY"
 layout: "post.njk"
 tags:
   - project
-  - cinematographer
-  - art director
-  - designer
+  - Art Direction
+  - Cinematography
+  - Design
 video: "eec02"
 image: "eec02.jpg"
 imageAlt: "Teasers Eagle-Eye Cherry Hate to Love"

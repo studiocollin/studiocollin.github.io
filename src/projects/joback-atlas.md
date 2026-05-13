@@ -8,8 +8,12 @@ maincategory: "Photography"
 layout: "post.njk"
 tags:
   - project
-  - Art director
-  - photographer
+  - Creative Direction
+  - Art Direction
+  - Visual Identity
+  - Design
+  - Packaging Design
+  - Photography
 image: "atlas_cover.jpg"
 imageAlt: "Creative direction and design Peter Jöback Atlas"
 classes: "preview landscape"

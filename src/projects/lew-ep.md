@@ -8,8 +8,12 @@ maincategory: "Photography"
 layout: "post.njk"
 tags:
   - project
-  - Art director
-  - photographer
+  - Creative Direction
+  - Art Direction
+  - Visual Identity
+  - Design
+  - Photography
+  - Film
 video: "lew-allagain_red"
 image: "Lew-AlexanderCollin-sRGB-0559.jpg"
 imageAlt: "Portrait of Lew in the suset"

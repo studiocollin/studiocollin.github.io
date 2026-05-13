@@ -8,8 +8,12 @@ maincategory: "ART DIRECTION"
 layout: "post.njk"
 tags:
   - project
-  - Art director
-  - graphic designer
+  - Creative Direction
+  - Art Direction
+  - Visual Identity
+  - Design
+  - Photography
+  - Packaging Design
 image: "preview.jpg"
 imageAlt: "Stjärnor & Fallna Änglar vinyl artwork"
 classes: "preview portrait"
